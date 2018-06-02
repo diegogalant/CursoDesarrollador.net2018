@@ -1,0 +1,117 @@
+*{
+
+	margin: 0;
+	padding: 0;
+    
+ }
+
+body{
+	background: #e6e6e6;
+	font-family: arial, helvetica, sans-serif;
+	font-size:16px;
+}
+
+header, .main , footer {
+
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+/* Le cambio el color a mi menu. overflow me limpia el header para que me muestre el contenedor con el color*/
+header nav{
+	background: #115DF6;
+	overflow:hidden;
+}
+
+/* le saco los asteriscos a la lista*/
+header nav ul{
+	list-style: none;
+}
+
+/* aca hago que la lista este una al lado de la otra, alineada de derecha a izquierda*/
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	background: #8EBAF1;
+}
+
+.main .articles{
+	width: 68%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 30%;
+	background: #ccc;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/*con clear both limpiamos los float left*/
+footer{
+	background: #070EA4;
+	color: #fff;
+	clear: both;
+	padding: 10px 0;
+	text-align: center;
+}
+
+/*Estos son los estilo para el formulario*/
+form{
+		
+	width: 30%;
+	margin: 20px auto;
+	padding: 20px;
+	border: 10px solid: #ccc;	
+	box-sizing: border-box;
+}
+
+label{
+	font-size: 15px;
+	display: block;
+	width: 100%;
+}
+
+textarea{
+	resize: vertical;
+	max-height: 300px;
+	min-height: 150px;
+}
+
+input , textarea{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+input:focus , textarea:focus{
+border: 2px solid: #087DA5;
+}
+
+input[type="submit"]{
+	margin-bottom: 0;
+	
+}
+
+input[type="submit"]:hover {
+		cursor: pointer;
+}

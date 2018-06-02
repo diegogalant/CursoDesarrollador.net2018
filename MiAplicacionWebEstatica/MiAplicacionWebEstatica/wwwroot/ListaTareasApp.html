@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de Tareas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilosList.css">
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+</head>
+
+<header>
+	<!--Estructura basica del menu-->
+		<div> 
+			<img src="imagenes/MiAvatar.png" width="100"> 
+		</div>
+		<nav>
+			<ul>
+				<li><a href="Index.html"> Inicio </a></li>
+				<li><a href="ListaTareasApp.html"> Lista de Tareas </a></li>
+				<li><a href="Contacto.html"> Contacto </a></li>
+			</ul>
+		</nav>
+	</header>
+
+<body>
+	
+<!--la estructura en html de la aplicacion de agregar tareas-->
+<div class="principal">
+	<div class="wrap">
+		<form action="" class="formulario">
+			<input type="text" id="tareaInput" class="error" placeholder="Escribe tu tarea" >
+			<input type="button" class="boton" id="btn-agregar" value="Agregar tarea">
+		</form>
+	</div>
+</div>>
+	
+<div class="tareas">
+	<div class="wrap">
+		<ul class="listas" id="lista">
+			<li><a href="#"> Comprar pan </a></li>
+			<li><a href="#"> Comprar leche </a></li>
+			<li><a href="#"> Sacar la basura </a></li>
+		</ul>
+	</div>
+</div>
+
+<script src="js/main.js"></script>
+
+<footer>
+		<p> Diego Galanti - Setcom Diseño web - 2018</p>
+	</footer>
+
+</body>
+</html>
